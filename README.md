@@ -10,6 +10,7 @@
 ## Configurar VSCode
 
 - Pastas e arquivos
+
 Perguntar para a IA: Estou criando um novo projeto em PHP e qual seria uma configuração boa de pastas vou criar procedural.
 
 Padrão de nome das pastas "snake_case"
