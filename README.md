@@ -40,6 +40,21 @@ Padrão de nomes dos arquivos "snake_case" ou "kebak-case"
     - .gitignore (na raiz - usado para ignorar arquivos/pastas)
     - README.md (arquivo inicial para o GitHub)
 
+## Extensões VSCode
 
+- Auto Rename Tag (Jun Han)
+- Bootstrap 5 & Font Awesome Snippets (HansUXdev)
+- MySQL (Database Client)
+- Material Icon Theme (Philipp Kief)
+- Open PHP/HTML/JS in Browser (PrimaFuture)
+- PHP Intelephense (Intelephense)
+- Portuguese (Brasil) Language Pack (Microsoft)
+
+## Criar o layout básico do Site
+
+- Login
+- Dashboard
+- Tela para Listar / Deletar (CRUD)
+- Tela de Cadastro / Edição (CRUD)
 
 
