@@ -1,16 +1,19 @@
 # Sistema para Testes
 
 ## Setup do Projeto UC11
+
 - Tela de Login
 - Tela de Dashboard
 - CRUD
 - Realizar Testes no sistema
 
 ## Configurar VSCode
+
 - Pastas e arquivos
 Perguntar para a IA: Estou criando um novo projeto em PHP e qual seria uma configuração boa de pastas vou criar procedural.
 
 Padrão de nome das pastas "snake_case"
+
     - assets (pasta para arquivos estáticos)
     - assets/css (pasta para os arquivos css)
     - assets/js (pasta para os arquivos js)
@@ -18,7 +21,9 @@ Padrão de nome das pastas "snake_case"
     - config (pasta para configurações do site)
     - includes (pasta para reaproveitar códigos e funções)
     - pages (pasta com as páginas do nosso site)
+
 Padrão de nomes dos arquivos "snake_case" ou "kebak-case"
+
     - index.php (na raiz do site)
     - style.css (na pasta assets/css)
     - script.js (na pasta assets/js)
