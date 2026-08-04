@@ -57,4 +57,18 @@ Padrão de nomes dos arquivos "snake_case" ou "kebak-case"
 - Tela para Listar / Deletar (CRUD)
 - Tela de Cadastro / Edição (CRUD)
 
+## Colocar as pastas e arquivos no gitignore
+
+.env
+.htaccess
+node_modules/ - biblioteca do npm (frontend)
+vendor/ - biblioteca do composer (backend)
+
+
+## Criar a conexão do BD
+
+config/conn.php
+
+
+
 
