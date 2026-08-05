@@ -1,0 +1,65 @@
+/* :root - representa o elemento raiz (html) toda a página */
+:root {
+    --margin-top-navbar: 56px;
+}
+
+#main-container {
+    margin-top: var(--margin-top-navbar);
+}
+
+#sidebar {
+    align-items: start;
+    width: 12.5rem;
+    background-color: rgb(110, 231, 240);
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* Altura da sidebar */
+    /* unidades de medidas
+    vh - relativo a altura da viewport (janela visivel)
+    vw - relativo a largura da viewport (janela visivel)
+    px - pixels
+    rem - relativo ao tamanho da fonte do elemento raiz (html)
+    em - relativo ao tamanho da fonte do elemento pai
+    */
+    height: calc(100vh - var(--margin-top-navbar));
+}
+
+.main {
+    margin-left: 200px;
+}
+
+@media (max-width: 991px) {
+    .main {
+        margin-left: 0;
+    }
+
+    #sidebar {
+        width: 18.75rem;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Largura da barra */
+#sidebar::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Fundo da barra */
+#sidebar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Barra de rolagem */
+#sidebar::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, .25);
+    border-radius: 10px;
+    transition: .3s;
+}
+
+/* Hover */
+#sidebar::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, .45);
+}

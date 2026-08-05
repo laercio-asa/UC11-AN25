@@ -69,6 +69,7 @@ vendor/ - biblioteca do composer (backend)
 
 config/conn.php
 
+## Alterar configurações
 
-
+No arquivo config/
 
