@@ -1,9 +1,3 @@
-<?php
-require($_SERVER['DOCUMENT_ROOT'] . '/AN25/Projeto/config/parametros.php');
-// conexao do banco de dados
-require(DIR_ROOT . '/config/conn.php');
-
-?>
 <!doctype html>
 <html lang="pt-BR">
 
@@ -13,7 +7,7 @@ require(DIR_ROOT . '/config/conn.php');
   <title>Sistema de Exemplo</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link rel="stylesheet"
-    href="<?= BASE_URL ?>/assets/css/style.css">
+    href="<?= BASE_PATH ?>/assets/css/style.css">
 </head>
 
 <body>
@@ -22,48 +16,14 @@ require(DIR_ROOT . '/config/conn.php');
 
   <div class="container-fluid" id="main-container">
     <div class="row navbar-expand-lg">
-      <aside id="sidebar" 
+      <aside id="sidebar"
         class="position-fixed collapse navbar-collapse">
         <ol>
-          <li>Menu 1 - Escolha este link</li>
-          <li>Menu 2</li>
-          <li>Menu 3</li>
-          <li>Menu 1</li>
-          <li>Menu 2</li>
-          <li>Menu 3</li>
-          <li>Menu 1</li>
-          <li>Menu 2</li>
-          <li>Menu 3</li>
-          <li>Menu 1</li>
-          <li>Menu 2</li>
-          <li>Menu 3</li>
-          <li>Menu 1</li>
-          <li>Menu 2</li>
-          <li>Menu 3</li>
-          <li>Menu 1</li>
-          <li>Menu 2</li>
-          <li>Menu 3</li>
-          <li>Menu 1</li>
-          <li>Menu 2</li>
-          <li>Menu 3</li>
-          <li>Menu 1</li>
-          <li>Menu 2</li>
-          <li>Menu 3</li>
-          <li>Menu 1</li>
-          <li>Menu 2</li>
-          <li>Menu 3</li>
-          <li>Menu 1</li>
-          <li>Menu 2</li>
-          <li>Menu 3</li>
-          <li>Menu 1</li>
-          <li>Menu 2</li>
-          <li>Menu 3</li>
-          <li>Menu 1</li>
-          <li>Menu 2</li>
-          <li>Menu 3</li>
-          <li>Menu 1</li>
-          <li>Menu 2</li>
-          <li>Menu 3</li>
+          <li>
+            <a href="<?= BASE_PATH ?>/pages/usuario/lista_usuario.php">
+              Usuário
+            </a>
+          </li>
         </ol>
       </aside>
       <main class="main col">

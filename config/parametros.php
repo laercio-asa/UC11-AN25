@@ -8,6 +8,12 @@
 // usar esta constante para definir caminhos no BackEnd
 define('DIR_ROOT', dirname(__DIR__));
 // usar esta constante para definir caminhos no FrontEnd
-define('BASE_URL', 'http://localhost/AN25/Projeto');
+// define('BASE_URL', 'http://localhost/');
+// mostrar o caminho do diretório raiz do servidor
+// echo $_SERVER['DOCUMENT_ROOT'];
+// mostra o caminho do diretório do arquivo atual
 
-//echo $_SERVER['DOCUMENT_ROOT'];
+define(
+    'BASE_PATH',
+    rtrim(dirname($_SERVER['SCRIPT_NAME']), '/\\')
+);

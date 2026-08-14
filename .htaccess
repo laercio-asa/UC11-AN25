@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redireciona acesso direto às páginas internas
+RewriteRule ^pages/dashboard/dashboard\.php$ /AN25/Projeto/dashboard/ [R=301,L]
+RewriteRule ^pages/login/login\.php$ /AN25/Projeto/login/ [R=301,L]
+
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
